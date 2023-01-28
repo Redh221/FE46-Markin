@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;0,600;1,400;1,500;1,600&family=Roboto&display=swap");
+
+.trusted__container {
+  width: 100%;
+}
+
+.trusted__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #191919;
+  padding: 236px 0 160px 0;
+}
+
+.trusted__header {
+  padding-bottom: 51px;
+  max-width: 525px;
+}
+
+.trusted__header h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.slider {
+  width: 100%;
+}
+
+.slider__main {
+  overflow: hidden;
+}
+
+.slider__images {
+  width: 100%;
+  display: flex;
+  padding: 51px 0;
+}
+
+.slider__images {
+  min-width: 752px;
+  height: auto;
+  margin: 0 35px;
+  transform: translateX(-10%);
+  transition: all ease-in-out 0.3s;
+}
+
+.slider__controls {
+  padding: 40px 0;
+}
+
+.slider__controls button {
+  width: 48px;
+  height: 48px;
+  margin: 0 16px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.slider__controls button:hover {
+  background-color: red;
+}
+
+.slider__controls button img {
+  margin: 0 auto;
+}
+
+.trusted__footer {
+  padding-top: 57px;
+}
+
+.trusted__footer-text p {
+  color: #ffffff99;
+}
+
+.trusted__footer-logos {
+  padding-top: 42px;
+  display: flex;
+}
+
+.trusted__footer-logos a {
+  margin: 0 20px;
+  transition: all ease-in-out 0.5s;
+}
+
+.trusted__footer-logos a:hover {
+  filter: drop-shadow(10px 10px 15px red);
+}
