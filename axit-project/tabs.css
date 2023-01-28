@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+.section__tabs {
+  margin: 0 270px;
+}
+
+.container__tabs {
+  width: 1170px;
+}
+.wrapper__tabs {
+  /* width: 1170px; */
+  border: 1px solid #c6cbcd;
+  display: flex;
+  flex-direction: row;
+}
+.tab__tabs1 {
+  display: grid;
+  background-color: red;
+}
+
+.right__tabs {
+  /* float: right; */
+  /* align-items: right; */
+  /* display: flex; */
+  /* width: 100%; */
+}
+
+.left__tabs {
+  /* float: left; */
+  width: 570px;
+  /* padding-top: 40px; */
+  padding-right: 30px;
+  padding-left: 100px;
+}
+
+.header__tabs h2 {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.description__tabs {
+  height: 210px;
+  text-align: top;
+  /* vertical-align: middle; */
+  display: table-cell;
+  vertical-align: top;
+}
+.description__tabs h5 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* text-align: left; */
+  /* vertical-align: top; */
+}
+
+.button__tabs {
+  height: 58px;
+  width: 270px;
+  border-radius: 0px;
+  line-height: 1.5;
+  background: #ec7979;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+}
+
+.header__tabs {
+  height: 124px;
+  width: 570px;
+}
