@@ -17,6 +17,10 @@
   background-color: red;
 }
 
+.section__tabs-navigation ul {
+  display: flex;
+}
+
 .right__tabs {
   /* float: right; */
   /* align-items: right; */
