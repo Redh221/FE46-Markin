@@ -76,22 +76,22 @@
     <link rel="stylesheet" href="./reset.css" />
   </head>
   <body>
-    <section class="section__tabs">
+    <section class="section__tabs"> <!-- Дай одно индивидуальное название данной секции -->
+      <div class="section__tabs-navigation"> 
+        <ul> <!-- Назови относительно секции все остальные классы по БЭМ -->
+          <li>TAB 1</li> <!-- Сделай элементы активными и неактивными -->
+          <li>TAB 2</li>
+          <li>TAB 3</li>
+        </ul>
+      </div>
       <div class="container__tabs">
         <div class="wrapper__tabs">
-          <div class="tab__tabs1">
-            <ul class="tab__tabs">
-              <li>TAB 1</li>
-              <li>TAB 2</li>
-              <li>TAB 3</li>
-            </ul>
-          </div>
           <div class="left__tabs">
             <div class="header__tabs">
               <h2>Tabs with soft transitioning effect.</h2>
             </div>
             <div class="description__tabs">
-              <h5>
+              <h5> <!-- Не используй бр -->
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
                 euismod <br />bibendum laoreet. Proin gravida dolor sit amet
                 lacus accumsan et viverra <br />justo commodo. Proin sodales
@@ -101,12 +101,12 @@
                 laoreet.
               </h5>
             </div>
-            <div class="footer__tabs">
-              <button class="button__tabs">Download</button>
+            <div class="footer__tabs"> 
+              <button class="button__tabs">Download</button> <!-- Дай кнопке ховер эффект и сделай cursor: pointer -->
             </div>
           </div>
           <div class="right__tabs">
-            <img src="./imgs/Rectangle 111.png" alt="" />
+            <img src="./imgs/Rectangle 111.png" alt="" /> <!-- Никогда не используй в названиях файлов пробелы -->
           </div>
         </div>
       </div>
