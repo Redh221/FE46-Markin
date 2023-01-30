@@ -1,41 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 .section__tabs {
-  margin: 0 270px;
+  padding-top: 50px;
 }
-
 .container__tabs {
   width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 .wrapper__tabs {
-  /* width: 1170px; */
-  border: 1px solid #c6cbcd;
-  display: flex;
-  flex-direction: row;
+  width: 1170px;  
 }
-.tab__tabs1 {
-  display: grid;
-  background-color: red;
-}
-
-.section__tabs-navigation ul {
-  display: flex;
-}
-
 .right__tabs {
-  /* float: right; */
-  /* align-items: right; */
-  /* display: flex; */
-  /* width: 100%; */
+  width: 470px;
+  height: 500px;
 }
-
 .left__tabs {
-  /* float: left; */
-  width: 570px;
-  /* padding-top: 40px; */
+  width: 700px;
   padding-right: 30px;
   padding-left: 100px;
 }
-
 .header__tabs h2 {
   font-family: Open Sans;
   font-size: 30px;
@@ -43,11 +28,12 @@
   line-height: 41px;
   letter-spacing: 0em;
   text-align: left;
+  padding-top: 35px;
 }
 .description__tabs {
   height: 210px;
   text-align: top;
-  /* vertical-align: middle; */
+ 
   display: table-cell;
   vertical-align: top;
 }
@@ -56,15 +42,8 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em;
-
-  /* text-align: center; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* text-align: left; */
-  /* vertical-align: top; */
+  letter-spacing: 0em; 
 }
-
 .button__tabs {
   height: 58px;
   width: 270px;
@@ -78,10 +57,60 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  border: none;
+  border: none
+  transition: all ease-in-out 2s;
+  border: none  ;
 }
 
 .header__tabs {
   height: 124px;
   width: 570px;
+}
+
+.footer__tabs button:hover {
+  background-color: rgb(64, 0, 255);
+  cursor: pointer;
+}
+
+.footer__tabs button {
+  transition: all ease-in-out 0.5s;
+}
+
+li:active {
+  background-color: yellow;
+}
+
+.content__tabs {
+  border: 1px solid #c6cbcd;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+ .section__tabs-navigation li {
+  list-style:none;
+ }
+
+ .section__tabs-navigation ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+ }
+ .section__tabs-navigation a {
+  display: flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center; 
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid white ;
+    border-top-left-radius:5%;
+    border-top-right-radius: 5%;
+    color:#333333;
+    height: 90px;
+    width: 205px;
+    font-family: 'Open Sans';
 }
