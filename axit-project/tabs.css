@@ -57,9 +57,9 @@
   letter-spacing: 0em;
   text-align: center;
   color: #ffffff;
-  border: none
+  border: none;
   transition: all ease-in-out 2s;
-  border: none  ;
+  border: none;
 }
 
 .header__tabs {
@@ -76,41 +76,40 @@
   transition: all ease-in-out 0.5s;
 }
 
-li:active {
+.section__tabs-navigation li:active {
   background-color: yellow;
 }
 
 .content__tabs {
   border: 1px solid #c6cbcd;
   display: flex;
-  flex-direction: row;
- 
 }
 
  .section__tabs-navigation li {
   list-style:none;
+  height: 40px;
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid white;
+  width: 205px;
  }
 
  .section__tabs-navigation ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
   margin: 0;
   padding: 0;
  }
  .section__tabs-navigation a {
   display: flex;
-    text-align:center;
+  text-align:center;
     align-items: center;
     justify-content: center; 
-    border-top: 1px solid #ddd;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid white ;
     border-top-left-radius:5%;
     border-top-right-radius: 5%;
     color:#333333;
-    height: 90px;
-    width: 205px;
+    height: 100%;
+    width: 100%;
     font-family: 'Open Sans';
 }
