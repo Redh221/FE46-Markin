@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./about.css" />
     <link rel="stylesheet" href="./tabs.css" />
     <link rel="stylesheet" href="./pricing.css" />
+    <link rel="stylesheet" href="./banner.css" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
@@ -15,49 +17,56 @@
     <link rel="stylesheet" href="./reset.css" />
   </head>
   <body>
-    <section class="section_about">
+    <!-- <section class="about">
       <div class="container">
-        <div class="title1">
-          <h2 class="h2z">WHY THIS IS AWESOME</h2><!-- Убрать цифры из всех классов -->
+        <div class="about__header">
+        <div class="about__title">
+          <h2>WHY THIS IS AWESOME</h2>
         </div>
-        <span class="divider"></span>
-        <p class="h5z"><!-- Убрать цифры из всех классов -->
+        <span class="about__divider"></span>
+      
+        <p class="about__description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
-        <title>Цвет горизонтальной линии</title>
+      </div>
+        
         <div class="items">
           <div class="item">
             <div class="item__image">
               <img class="card__image-wrapper" src="./Vector.png" alt="vector" />
             </div>
-            <h3 class="h3z">Thoughtful Design</h3><!-- использывание тегов в название неоч)-->
-            <p class="pz">
+            <h3 class="about__item-name">Thoughtful Design</h3>
+            <p class="about__item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
               accumsan et viverra.
             </p>
           </div>
           <div class="item">
+            <div class="item__image">
             <img
               class="card__image-wrapper"
               src="Vector (1).png"
               alt="vector1"
             />
-            <h3 class="h3z">Thoughtful Design</h3> <!-- тоже испл тегов в наз-->
-            <p class="pz">
+          </div>
+            <h3 class="about__item-name">Thoughtful Design</h3> 
+            <p class="about__item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
               accumsan et viverra.
             </p>
           </div>
           <div class="item">
+            <div class="item__image" >
             <img                             
               class="card__image-wrapper"
               src="Vector (2).png"
               alt="vector2"
-            />      <!--возможно лучше было бы картинку обернуть в отдельный див-->
-            <h3 class="h3z">Thoughtful Design</h3>
-            <p class="pz"> <!--название тега в классе такое себе-->
+            />
+          </div>
+            <h3 class="about__item-name">Thoughtful Design</h3>
+            <p class="about__item-description"> 
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               euismod bibendum laoreet. Proin gravida dolor sit amet lacus
               accumsan et viverra.
@@ -66,23 +75,23 @@
         </div>
       </div>
     </div>
-  </section>
-    <section class="section__tabs"><!-- Не дублируй в классе название тега -->
+  </section> -->
+    <!-- <section class="section__tabs">
       <div class="container__tabs">
         <div class="wrapper__tabs">
-          <div class="section__tabs-navigation"><!-- Не дублируй в классе название тега -->
+          <div class="section__tabs-navigation">
             <ul>
               <li><a>TAB 1</a></li>
               <li><a>TAB 2</a></li>
               <li><a>TAB 3</a></li>
             </ul>
           </div>
-          <div class="content__tabs"><!-- class="tab" -->
-            <div class="left__tabs"><!-- class="tab__main" -->
-              <div class="header__tabs"><!-- class="tab__title" -->
+          <div class="content__tabs">
+            <div class="left__tabs">
+              <div class="header__tabs">
                 <h2>Tabs with soft transitioning effect.</h2>
               </div>
-              <div class="description__tabs"><!-- class="tab__description" -->
+              <div class="description__tabs">
                 <h5>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   Aenean euismod <br />bibendum laoreet. Proin gravida dolor sit
@@ -93,18 +102,18 @@
                   <br />bibendum laoreet.
                 </h5>
               </div>
-              <div class="footer__tabs"><!-- class="tab__submit-btn" -->
+              <div class="footer__tabs">
                 <button class="button__tabs">Download</button>
               </div>
             </div>
-            <div class="right__tabs"><!-- class="tab__image" -->
+            <div class="right__tabs">
               <img src="./imgs/Rectangle111.png" alt="" />
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="pricing__section"><!-- Не дублируй в классе название тега -->
+    </section> -->
+    <!-- <section class="pricing__section">
       <div class="pricing__container">
         <div class="pricing__wrapper">
           <div class="pricing__header">
@@ -114,24 +123,9 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
           </div>
-          <div class="pricing__cards">  <!-- Карты получились супер!-->
-            <div class="pricing__card"><!-- class="card" -->
-              <!-- <div class="card__about">
-                <div class="card__title"><h4>Basic</h4></div>
-                <div class="card__price"><h3>$10</h3></div>
-                <div class="card__description"><p>Free for life</p></div>
-              </div>
-              <div class="card__main">
-                <ul class="card__offer-list">
-                  <li>1 Gb Of Space</li>
-                  <li>1 Gb Of Space</li>
-                  <li>1 Gb Of Space</li>
-                  <li>1 Gb Of Space</li>
-                  <li>1 Gb Of Space</li>
-                  <li>1 Gb Of Space</li>
-                </ul>
-              </div> -->
-              <ul><!-- class="card" -->
+          <div class="pricing__cards">  
+            <div class="pricing__card">
+              <ul>
                 <li class="card-name"><h4>Basic</h4></li>
                 <li class="card-price"><h3>$10</h3></li>
                 <li class="card-description"><p>Free for life</p></li>
@@ -180,6 +174,42 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <section class="banner">
+      <div class="banner__container">
+        <div class="banner__wrapper">
+          <div class="banner__header">
+            <div class="banner__title"><h2>STYLISH AXURE DESIGN</h2></div>
+            <span class="banner__divider"></span>
+            <div class="banner__description">
+              <h4>
+                Use the sections you need, remove the ones you don't. Create
+                gorgeous prototypes faster than ever!
+              </h4>
+            </div>
+          </div>
+          <div class="banner__button">
+            <button class="banner__button-download">Download</button>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- <section class="contact">
+      <div class="contact__header">
+        <div class="contact__wrapper">
+          <div class="contact__header">
+            <div class="contact__title">CONTACT US</div>
+            <div class="contact__divider"></div>
+            <div class="contact__description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="contact__inputs"></div>
+
+          <div class="contact__button">Send Message</div>
+        </div>
+      </div>
+    </section> -->
   </body>
 </html>

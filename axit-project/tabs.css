@@ -10,7 +10,7 @@
   margin: auto;
 }
 .wrapper__tabs {
-  width: 1170px;  
+  width: 1170px;
 }
 .right__tabs {
   width: 470px;
@@ -33,16 +33,18 @@
 .description__tabs {
   height: 210px;
   text-align: top;
- 
+
   display: table-cell;
   vertical-align: top;
+
+  padding: 10px 0 50px 0;
 }
 .description__tabs h5 {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
-  letter-spacing: 0em; 
+  letter-spacing: 0em;
 }
 .button__tabs {
   height: 58px;
@@ -85,31 +87,31 @@
   display: flex;
 }
 
- .section__tabs-navigation li {
-  list-style:none;
+.section__tabs-navigation li {
+  list-style: none;
   height: 40px;
   border-top: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid white;
   width: 205px;
- }
+}
 
- .section__tabs-navigation ul {
+.section__tabs-navigation ul {
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
- }
- .section__tabs-navigation a {
+}
+.section__tabs-navigation a {
   display: flex;
-  text-align:center;
-    align-items: center;
-    justify-content: center; 
-    border-top-left-radius:5%;
-    border-top-right-radius: 5%;
-    color:#333333;
-    height: 100%;
-    width: 100%;
-    font-family: 'Open Sans';
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  color: #333333;
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans";
 }
