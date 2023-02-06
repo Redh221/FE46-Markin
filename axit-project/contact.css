@@ -1,0 +1,99 @@
+.contact__container {
+  margin: 0 auto;
+  /* margin: 0 170px; */
+}
+
+.contact__wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* width: 1170px; */
+}
+
+.contact__title h2 {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  padding: 40px 0 40px 0;
+}
+
+.contact__divider {
+  border-bottom: 1px solid #ec7979;
+  display: flex;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.contact__description h3 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 40px 0 40px 0;
+}
+
+.contact__inputs-left {
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.inputs_small {
+  height: 19px;
+  width: 571px;
+  border: none;
+  /* padding-bottom: 50px; */
+}
+
+.inputs__divider {
+  border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  width: 571px;
+  padding-top: 15px;
+}
+.inputs--divider {
+  padding: 70px 0 0 0;
+}
+
+.contact__inputs-right {
+  margin-left: 70px;
+}
+.inputs_big {
+  height: 300px;
+  width: 569px;
+  border: none;
+}
+
+.contact__inputs {
+  display: flex;
+}
+
+::placeholder {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bdbdbd;
+}
+
+.contact__footer {
+  padding: 40px 0 40px;
+}
+
+.contact__button {
+  height: 58px;
+  width: 370px;
+  border-radius: 0px;
+  line-height: 1.5;
+  background: #ec7979;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  transition: all ease-in-out 2s;
+  border: none;
+}
+.contact__button:hover {
+  cursor: pointer;
+}
