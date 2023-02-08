@@ -1,0 +1,36 @@
+.footer {
+  height: 164px;
+  background-color: azure;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1170px;
+  background: #000000;
+}
+
+.footer__wrapper {
+  padding-top: 40;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.images__footer {
+  padding: 0 20px;
+}
+
+.footer__icons {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0 35px 0px;
+  /* align-items: center; */
+  margin: 0 auto;
+  /* color: #cccccc; */
+}
+
+.footer__text h3 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff80;
+}
