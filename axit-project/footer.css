@@ -7,24 +7,15 @@
   background: #000000;
 }
 
-.footer__wrapper {
-  padding-top: 40;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: center; */
-}
-
-.images__footer {
-  padding: 0 20px;
+.image__footer {
+  padding: 40px 35px 30px;
 }
 
 .footer__icons {
   display: flex;
   justify-content: center;
   padding: 35px 0 35px 0px;
-  /* align-items: center; */
   margin: 0 auto;
-  /* color: #cccccc; */
 }
 
 .footer__text h3 {
