@@ -1,10 +1,9 @@
 .footer {
   height: 164px;
-  background-color: azure;
-  justify-content: center;
+  /* justify-content: space-between; */
   margin: 0 auto;
-  width: 1170px;
-  background: #000000;
+  max-width: 1170px;
+  background: black;
 }
 
 .image__footer {
@@ -13,6 +12,7 @@
 
 .footer__icons {
   display: flex;
+  align-items: center;
   justify-content: center;
   padding: 35px 0 35px 0px;
   margin: 0 auto;
@@ -24,4 +24,8 @@
   font-weight: 400;
   text-align: center;
   color: #ffffff80;
+}
+
+@media footer (max-width: 1300px) {
+  max-resolution: ;
 }

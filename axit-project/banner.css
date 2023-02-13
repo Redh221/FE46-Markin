@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background-color: #00000080;
   background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("city.png");
 }
 .banner__title h2 {
@@ -39,7 +38,7 @@
 }
 
 .banner__button-download {
-  height: 58px;
+  height: 90px;
   width: 370px;
   color: #ffffff;
   background: rgba(0, 0, 0, 0);

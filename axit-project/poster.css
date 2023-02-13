@@ -1,0 +1,143 @@
+.poster__container {
+  height: 1026px;
+  margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+}
+
+.poster__wrapper {
+  background: linear-gradient(#00000050, rgba(0, 0, 0, 0.5)),
+    url("./imgs/poster-logo.png");
+  height: 100%;
+  display: flex;
+}
+
+.poster__left {
+  padding-left: 150px;
+}
+
+.poster__left-logo {
+  padding-top: 290px;
+}
+
+.poster__left-subtitle h2 {
+  font-family: Raleway;
+  font-size: 42px;
+  font-weight: 400;
+  color: white;
+  padding: 53px 0 53px;
+}
+
+.poster__left-divider {
+  border: 1px solid #ffffff;
+  width: 170px;
+}
+
+.poster__left-description h3 {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  color: white;
+  padding: 41px 0 41px;
+  max-width: 300px;
+}
+
+.poster__left-download {
+  height: 57px;
+  width: 250px;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  border-color: #ffffff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.poster__shape {
+  height: 410px;
+  width: 425px;
+  left: 0px;
+  top: 0px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 16px #ccc;
+  font-family: open-sans;
+  letter-spacing: 1px;
+  flex-direction: column;
+  margin: 260px 30px 0 0;
+}
+.form__title {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 40px 0 40px 0;
+}
+.form__title span {
+  color: #ec7979;
+}
+
+.form__group {
+  margin-bottom: 32px;
+  position: relative;
+  padding: 7px 0 7px 0;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  color: #bdbdbd;
+  transition: 0.3s;
+}
+
+.form__input {
+  width: 100%;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  background-color: transparent;
+  outline: none;
+  transition: 0.3s;
+}
+
+.poster__form-button {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  line-height: 1.5;
+  background: #ec7979;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  transition: all ease-in-out 2s;
+  border: none;
+  height: 100%;
+}
+.poster__form-button:hover {
+  cursor: pointer;
+}
+.form__input:focus {
+  border-bottom: 1px solid red;
+}
