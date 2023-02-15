@@ -1,9 +1,10 @@
 .footer {
-  height: 164px;
+  max-height: 164px;
   /* justify-content: space-between; */
   margin: 0 auto;
-  max-width: 1170px;
-  background: black;
+  width: 100%;
+max-width: 1510px;
+  background: black ;
 }
 
 .image__footer {
@@ -24,8 +25,21 @@
   font-weight: 400;
   text-align: center;
   color: #ffffff80;
+  padding-bottom: 40px;
 }
 
-@media footer (max-width: 1300px) {
-  max-resolution: ;
+
+  
+
+@media screen and (max-width: 780px) {
+  .image__footer {
+    padding: 40px 25px 30px;
+}
+@media screen and (max-width: 640px) {
+  .image__footer {
+    padding: 40px 15px 30px;
+}
+@media screen and (max-width: 510px) {
+  .image__footer {
+    padding: 40px 5px 30px;
 }

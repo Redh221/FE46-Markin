@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;600&family=Raleway&display=swap");
-
 .banner__container {
   display: flex;
   flex-direction: column;
+  max-width: 1510px;
+  margin: 0 auto;
 }
 
 .banner__wrapper {
   display: flex;
   align-items: center;
+
   flex-direction: column;
   background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("city.png");
 }
@@ -38,7 +39,7 @@
 }
 
 .banner__button-download {
-  height: 90px;
+  height: 58px;
   width: 370px;
   color: #ffffff;
   background: rgba(0, 0, 0, 0);

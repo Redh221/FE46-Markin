@@ -1,8 +1,9 @@
 .poster__container {
   height: 1026px;
   margin: 0 auto;
-  max-width: 1170px;
+  /* max-width: 100px; */
   width: 100%;
+  max-width: 1510px;
 }
 
 .poster__wrapper {
@@ -10,22 +11,23 @@
     url("./imgs/poster-logo.png");
   height: 100%;
   display: flex;
+  background-repeat: no-repeat;
 }
 
 .poster__left {
-  padding-left: 150px;
+  padding-left: 170px;
 }
 
 .poster__left-logo {
-  padding-top: 290px;
+  padding-top: 315px;
 }
 
 .poster__left-subtitle h2 {
   font-family: Raleway;
-  font-size: 42px;
-  font-weight: 400;
+  font-size: 48px;
+  font-weight: 500;
   color: white;
-  padding: 53px 0 53px;
+  padding: 72px 0 52px;
 }
 
 .poster__left-divider {
@@ -39,13 +41,13 @@
   font-weight: 400;
   text-align: left;
   color: white;
-  padding: 41px 0 41px;
+  padding: 42px 0 42px;
   max-width: 300px;
 }
 
 .poster__left-download {
-  height: 57px;
-  width: 250px;
+  height: 58px;
+  width: 270px;
   color: #ffffff;
   background: rgba(0, 0, 0, 0);
   border-radius: 3px;
@@ -57,8 +59,8 @@
 }
 
 .poster__shape {
-  height: 410px;
-  width: 425px;
+  height: 450px;
+  width: 470px;
   left: 0px;
   top: 0px;
   border-radius: 10px;
@@ -70,7 +72,7 @@
   font-family: open-sans;
   letter-spacing: 1px;
   flex-direction: column;
-  margin: 260px 30px 0 0;
+  margin: 300px 185px 0 0;
 }
 .form__title {
   text-align: center;
@@ -88,7 +90,7 @@
 }
 
 .form__group {
-  margin-bottom: 32px;
+  margin-bottom: 35px;
   position: relative;
   padding: 7px 0 7px 0;
 }
@@ -113,12 +115,6 @@
 }
 
 .poster__form-button {
-  font-family: Open Sans;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
   width: 100%;
   color: #ffffff;
   line-height: 1.5;
@@ -134,6 +130,7 @@
   transition: all ease-in-out 2s;
   border: none;
   height: 100%;
+  margin-top: 20px;
 }
 .poster__form-button:hover {
   cursor: pointer;
