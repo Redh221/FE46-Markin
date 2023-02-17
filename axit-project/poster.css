@@ -1,7 +1,6 @@
 .poster__container {
-  height: 1026px;
+  min-height: 1026px;
   margin: 0 auto;
-  /* max-width: 100px; */
   width: 100%;
   max-width: 1510px;
 }
@@ -12,6 +11,7 @@
   height: 100%;
   display: flex;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .poster__left {
@@ -44,7 +44,9 @@
   padding: 42px 0 42px;
   max-width: 300px;
 }
-
+.poster__left-button {
+  padding: 0 0 30px;
+}
 .poster__left-download {
   height: 58px;
   width: 270px;
@@ -137,4 +139,113 @@
 }
 .form__input:focus {
   border-bottom: 1px solid red;
+}
+
+@media screen and (max-width: 1000px) {
+  .poster__left-subtitle h2 {
+    font-family: Raleway;
+    font-size: 38px;
+    font-weight: 500;
+    padding: 62px 0 42px;
+  }
+  .poster__left {
+    padding-left: 115px;
+  }
+  .poster__left-description h3 {
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .poster__left-logo {
+    padding-top: 230px;
+  }
+  .poster__shape {
+    height: 450px;
+    width: 398px;
+    margin: 220px 175px 0 0;
+  }
+  .poster__left-download {
+    height: 50px;
+    width: 183px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .poster__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .poster__shape {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .poster__left-button {
+    justify-content: center;
+    display: flex;
+  }
+  .poster__left-subtitle {
+    text-align: center;
+  }
+  .poster__left-divider {
+    margin: 0 auto;
+  }
+  .poster__left-description h3 {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .poster__left {
+    padding-left: 10px;
+  }
+
+  .poster__left-logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .poster__left-subtitle h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    /* padding-bottom: 60px; */
+  }
+  .poster__shape {
+    height: 400px;
+    width: 287px;
+    margin-bottom: 35px;
+  }
+  .poster__form-button {
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-top: 50px;
+  }
+  .poster__left-subtitle h2 {
+    padding: 30px 0 25px;
+  }
+  .poster__container {
+    min-height: 790px;
+  }
+  .form__title {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 0 30px 0;
+  }
+  .form__group {
+    padding: 0 11px 0 11px;
+  }
+  .form__label {
+    padding: 0 11px 0 11px;
+  }
 }

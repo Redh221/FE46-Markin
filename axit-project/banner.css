@@ -27,7 +27,7 @@
   margin: 0 auto;
 }
 
-.banner__description {
+.banner__description h4 {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
@@ -53,4 +53,41 @@
 
 .banner__button:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+  .banner__title h2 {
+    font-family: Raleway;
+    font-size: 36px;
+  }
+  .banner__description h4 {
+    font-family: Raleway;
+    font-size: 16px;
+    padding: 30px;
+    /* white-space: pre-line; */
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner__title h2 {
+    font-size: 24px;
+  }
+
+  .banner__description h4 {
+    font-family: Raleway;
+    font-size: 14px;
+    padding: 30px;
+  }
+
+  .banner__button-download {
+    height: 50px;
+    width: 287px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .banner__button-download {
+    height: 50px;
+    width: 227px;
 }
