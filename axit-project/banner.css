@@ -10,10 +10,9 @@
   align-items: center;
 
   flex-direction: column;
-  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("city.png");
+  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("./imgs/city.png");
 }
 .banner__title h2 {
-  font-family: Raleway;
   font-size: 36px;
   font-weight: 400;
   color: #ffffff;
@@ -28,7 +27,6 @@
 }
 
 .banner__description h4 {
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -57,11 +55,9 @@
 
 @media screen and (max-width: 950px) {
   .banner__title h2 {
-    font-family: Raleway;
     font-size: 36px;
   }
   .banner__description h4 {
-    font-family: Raleway;
     font-size: 16px;
     padding: 30px;
     /* white-space: pre-line; */
@@ -75,7 +71,6 @@
   }
 
   .banner__description h4 {
-    font-family: Raleway;
     font-size: 14px;
     padding: 30px;
   }

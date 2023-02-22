@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Axet project</title>
+    <title>Axit project</title>
     <link rel="stylesheet" href="./index.css" />
-    <!-- <link rel="stylesheet" href="./reset.css" /> -->
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
       rel="stylesheet"
@@ -24,7 +23,7 @@
           <div class="header__right">
             <ul class="header__menu">
               <li>
-                <a class="header__titles" href="."><h4>Features</h4></a>
+                <a class="header__titles" href="#poster"><h4>Features</h4></a>
               </li>
               <li>
                 <a class="header__titles" href="."><h4>About</h4></a>
@@ -44,7 +43,7 @@
       </div>
     </section>
 
-    <section class="poster">
+    <section class="poster" id="poster">
 <div class="poster__container">
 <div class="poster__wrapper">
 <div class="poster__left">
@@ -66,16 +65,16 @@
 <label class="form__label">Name</label>
       </div>
       <div class="form__group">
-        <input type="text" class="form__input">
+        <input required type="text" class="form__input">
         <label class="form__label">Email</label>
               </div>
               <div class="form__group">
                 <input type="text" class="form__input">
                 <label class="form__label">Password</label>
                       </div>
-                      
+                      <div class="poster__button">
+                      <button type="submit" class="poster__form-button">Get Started</button></div>
     </form>
-    <button class="poster__form-button">Get Started</button>
     
   </div>
 
@@ -97,13 +96,13 @@
 <div class="social__right">
   <div class="social__right-icons">
     <ul>
-      <li><a href=""></a><img src="./imgs__social/facebook-social.png"></li>
-      <li><a href=""></a><img src="./imgs__social/Twitter-social.png" alt=""></li>
-      <li><a href=""></a><img src="./imgs__social/in-social.png" alt=""></li>
-      <li><a href=""></a><img src="./imgs__social/p-social.png" alt=""></li>
-      <li><a href=""></a><img src="./imgs__social/inst-social.png" alt=""></li>
-      <li><a href=""></a><img src="./imgs__social/git-social.png" alt=""></li>
-      <li><a href=""></a><img src="./imgs__social/network-social.png" alt=""></li>
+      <li><a href="https://www.facebook.com/"></a><img src="./imgs__social/facebook-social.png"></li>
+      <li><a href="https://twitter.com/"></a><img src="./imgs__social/Twitter-social.png" alt=""></li>
+      <li><a href="https://www.linkedin.com/"></a><img src="./imgs__social/in-social.png" alt=""></li>
+      <li><a href="https://www.pinterest.com/"></a><img src="./imgs__social/p-social.png" alt=""></li>
+      <li><a href="https://www.instagram.com/"></a><img src="./imgs__social/inst-social.png" alt=""></li>
+      <li><a href="https://github.com/"></a><img src="./imgs__social/git-social.png" alt=""></li>
+      <li><a href="https://rss.com/"></a><img src="./imgs__social/network-social.png" alt=""></li>
     </ul>
   </div>
 </div>
@@ -132,7 +131,7 @@
         <div class="items">
           <div class="item">
             <div class="item__image">
-              <img class="card__image-wrapper" src="./Vector.png" alt="vector" />
+              <img class="card__image-wrapper" src="./imgs/lamp.png" alt="vector" />
             </div>
             <h3 class="about__item-name">Thoughtful Design</h3>
             <p class="about__item-description">
@@ -145,7 +144,7 @@
             <div class="item__image">
             <img
               class="card__image-wrapper"
-              src="Vector (1).png"
+              src="./imgs/keyboard.png"
               alt="vector1"
             />
           </div>
@@ -160,7 +159,7 @@
             <div class="item__image" >
             <img                             
               class="card__image-wrapper"
-              src="Vector (2).png"
+              src="./imgs/thunder.png"
               alt="vector2"
             />
           </div>
@@ -175,7 +174,7 @@
       </div>
     </div>
   </section>
-    <section class="section__tabs">
+    <section class="tabs">
       <div class="container__tabs">
         <div class="wrapper__tabs">
           <div class="section__tabs-navigation">
@@ -212,7 +211,7 @@
         </div>
       </div>
     </section>
-    <section class="pricing__section">
+    <section class="pricing">
       <div class="pricing__container">
         <div class="pricing__wrapper">
           <div class="pricing__header">
@@ -406,7 +405,7 @@
       <div class="footer__wrapper">
         <ul class="footer__icons">
           <li>
-            <a href=".">
+            <a href="https://www.facebook.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/Facebook.png"
@@ -415,7 +414,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://twitter.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/Twitter.png"
@@ -424,7 +423,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://www.linkedin.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/In.png"
@@ -433,7 +432,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://www.pinterest.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/pp.png"
@@ -442,7 +441,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://www.instagram.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/inst.png"
@@ -451,7 +450,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://github.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/cat.png"
@@ -460,7 +459,7 @@
             </a>
           </li>
           <li>
-            <a href=".">
+            <a href="https://rss.com/">
               <img
                 class="image__footer"
                 src="./imgs__footer/network.png"
