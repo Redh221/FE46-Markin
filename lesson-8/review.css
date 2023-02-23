@@ -55,6 +55,7 @@
   border-radius: 5px;
   border: none;
   background: #f9f0ee;
+  padding-left: 30px;
 }
 
 .form__inputs::placeholder {
@@ -62,7 +63,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .form__button {
@@ -88,7 +89,7 @@
 }
 
 .checkbox__label {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 400;
   line-height: 30px;
