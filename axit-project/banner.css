@@ -10,7 +10,8 @@
   align-items: center;
 
   flex-direction: column;
-  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("./imgs/city.png");
+  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)),
+    url("./imgs/city.png");
 }
 .banner__title h2 {
   font-size: 36px;
@@ -79,10 +80,4 @@
     height: 50px;
     width: 287px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .banner__button-download {
-    height: 50px;
-    width: 227px;
 }

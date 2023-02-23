@@ -23,7 +23,7 @@
   width: 600px;
 }
 
-.header__titles h4 {
+.header__titles {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 600;
