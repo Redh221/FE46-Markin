@@ -4,3 +4,17 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+
+.divider__grey {
+  border-bottom: 1px solid #ffffff;
+  display: block;
+  width: 170px;
+  margin: 0 auto;
+}
+
+.divider {
+  border-bottom: 1px solid #ec7979;
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+}

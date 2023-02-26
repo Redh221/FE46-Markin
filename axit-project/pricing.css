@@ -17,14 +17,7 @@
   line-height: 42px;
   letter-spacing: 0em;
   text-align: center;
-}
-
-.pricing__header-divider {
-  border-bottom: 1px solid #ec7979;
-  display: block;
-  margin: 0 auto;
-  width: 170px;
-  padding: 40px 0 40px 0;
+  padding-bottom: 40px;
 }
 
 .pricing__header-description {
@@ -128,6 +121,54 @@
 
 .card-offer p {
   font-size: 18px;
-  font-weight: 400;
-  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing__card {
+    width: 320px;
+    padding-top: 45px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pricing__card ul {
+    padding: 0 5px;
+  }
+
+  .pricing__header-title {
+    font-size: 28px;
+  }
+  .pricing__header-divider {
+    width: 155px;
+    padding: 30px 0px;
+  }
+  .pricing__header-description {
+    font-size: 16px;
+  }
+  .card-name {
+    height: 54px;
+  }
+  .card-price {
+    height: 89px;
+  }
+  .card-description {
+    height: 45px;
+  }
+  .card-offer {
+    height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricing__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing__card {
+    width: 295px;
+  }
+  .card-offer p {
+    font-size: 16px;
+  }
+  .pricing__header-title {
+    font-size: 24px;
+  }
 }

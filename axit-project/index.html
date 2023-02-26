@@ -121,7 +121,7 @@
         <div class="about__title">
           <h2>WHY THIS IS AWESOME</h2>
         </div>
-        <span class="about__divider"></span>
+        <span class="divider"></span>
       
         <p class="about__description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -216,7 +216,7 @@
         <div class="pricing__wrapper">
           <div class="pricing__header">
             <div class="pricing__header-title">PRICING OPTIONS</div>
-            <div class="pricing__header-divider"></div>
+            <div class="divider"></div>
             <div class="pricing__header-description">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -289,6 +289,7 @@
     accusamus expedita repellat similique 
     odio aspernatur ex, architecto eaque 
     quo suscipit.</h4></div>
+    <!-- <img class="card__tooltip" src="./imgs/tool.png" alt="tool"> -->
 </div>
 <div class="card__user">
 <div class="card__left">
@@ -307,6 +308,7 @@
       accusamus expedita repellat similique 
       odio aspernatur ex, architecto eaque 
       quo suscipit.</h4></div>
+      <!-- <img class="card__tooltip" src="./imgs/tool.png" alt="tool"> -->
   </div>
   <div class="card__user">
   <div class="card__left">
@@ -325,6 +327,7 @@
         accusamus expedita repellat similique 
         odio aspernatur ex, architecto eaque 
         quo suscipit.</h4></div>
+        <!-- <img  class="card__tooltip" src="./imgs/tool.png" alt="tool"> -->
     </div>
     <div class="card__user">
     <div class="card__left">
@@ -345,7 +348,7 @@
         <div class="banner__wrapper">
           <div class="banner__header">
             <div class="banner__title"><h2>STYLISH AXURE DESIGN</h2></div>
-            <span class="banner__divider"></span>
+            <span class="divider__grey"></span>
             <div class="banner__description">
               <h4>
                 Use the sections you need, remove the ones you don't. Create
@@ -365,34 +368,44 @@
         <div class="contact__wrapper">
           <div class="contact__header">
             <div class="contact__title"><h2>CONTACT US</h2></div>
-            <span class="contact__divider"></span>
+            <span class="divider"></span>
             <div class="contact__description">
               <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
             </div>
           </div>
-          <div class="contact__inputs">
-            <div class="contact__inputs-left">
-              <div class="inputs--divider">
-                <input class="inputs_small" type="text" placeholder="Name" />
-                <span class="inputs__divider"></span>
-              </div>
-              <div class="inputs--divider">
-                <input class="inputs_small" type="text" placeholder="Email" />
-                <span class="inputs__divider"></span>
-              </div>
-              <div class="inputs--divider">
-                <input
-                  class="inputs_small"
-                  type="text"
-                  placeholder="Password"
-                />
-                <span class="inputs__divider"></span>
-              </div>
-            </div>
-            <div class="contact__inputs-right">
-              <input class="inputs_big" type="text" placeholder="Message" />
-              <span class="inputs__divider"></span>
-            </div>
+          <div class="contact__content">
+<form class="contact__forms" action="#">
+  <div class="contact__inputs">
+    <div class="contact__info">
+    <input   
+    class="contact__input"
+    placeholder="Name"
+    type="text"
+    name="contact__name">
+  </div>
+  <div class="contact__info">
+    <input   
+    class="contact__input"
+    placeholder="Email"
+    type="text"
+    name="contact__email">
+  </div>
+  <div class="contact__info">
+    <input   
+    class="contact__input"
+    placeholder="Password"
+    type="text"
+    name="contact__password">
+  </div>
+</div>
+<div class="contact__right">
+  <textarea class="contact__textarea" class="" name="contact__textarea"
+  placeholder="Message" cols="30" rows="10"></textarea>
+</div>
+
+
+</form>
+
           </div>
           <div class="contact__footer">
             <button  type="sub" class="contact__button">Send Mesage</button>

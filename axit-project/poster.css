@@ -179,6 +179,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .poster__left-logo {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
   .poster__shape {
     justify-content: center;
     align-items: center;

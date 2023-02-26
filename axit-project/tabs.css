@@ -119,21 +119,9 @@
   width: 100%;
   font-family: "Open Sans";
 }
-
-@media screen and (max-width: 1000px);
- {
-  .header__tabs h2 {
-    font-size: 24px;
-  }
-  .description__tabs h5 {
-    font-size: 14px;
-    line-height: 16.44px;
-  }
-  .button__tabs {
-    width: 230px;
-  }
+@media screen and (max-width: 1190px) {
   .left__tabs {
-    background-color: #ec7979;
+    padding-left: 20px;
   }
 }
 
