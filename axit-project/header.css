@@ -1,21 +1,17 @@
 .header__wrapper {
   margin: 0 auto;
-  width: 100%;
-  height: 76px;
+  min-height: 76px;
   background-color: black;
   display: flex;
   max-width: 1510px;
 }
 
-.header__container {
-  display: flex;
-}
 .header__logo {
   align-items: center;
   margin-left: 115px;
   width: 33%;
 }
-.header__menu {
+.header__menu ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -34,6 +30,80 @@
   color: #fff;
 }
 
+.header__burger {
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: flex-end;
+  width: 30px;
+  height: 18px;
+  /* padding-left: 100px; */
+}
+.header__burger-placing {
+  /* padding-left: 100px; */
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__burger span {
+  height: 2px;
+  width: 80%;
+  transform: scale(1);
+  background-color: #faf6f2;
+}
+
+.header__burger::before,
+.header__burger::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #faf6f2;
+  transition: all 0.3 ease 0s;
+}
+.header__burger::before {
+  top: 0;
+}
+.header__burger::after {
+  bottom: 0;
+}
+.burger.active span {
+  transform: scale(0);
+}
+
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, 50%);
+}
+
+.burger.active::after {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, 50%);
+}
+@media (max-width: 910px) {
+  .header__burger {
+    display: flex;
+  }
+  .header__menu ul {
+    /* display: none; */
+  }
+  .header__menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    overflow-y: auto;
+    padding: 50px 40px;
+    background-color: black;
+    /* animation: ; */
+  }
+}
 @media (max-width: 910px) {
   .header__menu {
     display: flex;
@@ -82,3 +152,5 @@
     flex-direction: column;
   }
 }
+
+/* я не справился :/ */
