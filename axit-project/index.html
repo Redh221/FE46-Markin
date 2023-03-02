@@ -22,7 +22,7 @@
           </div>
           <div class="header__right">
             <nav  class="header__menu" >
-            <ul>
+            <ul class="header__menu-list">
               <li>
                 <a class="header__titles" href="#poster">Features</a>
               </li>
@@ -38,17 +38,33 @@
               <li>
                 <a class="header__titles" href="#contact">Contact</a>
               </li>
-              
             </ul>
-            
           </nav>
-          
-          <div class="header__burger">
+        </div>
+        <div onclick="onburgerclick()" class="header__burger">
             <span></span>
           </div>
-        </div>
       </div>
     </div>
+    <aside class="header__sidebar"> <nav  class="header__menu" >
+      <ul class="header__menu-list">
+        <li>
+          <a class="header__titles" href="#poster">Features</a>
+        </li>
+        <li>
+          <a class="header__titles" href="#about">About</a>
+        </li>
+        <li>
+          <a class="header__titles" href="#pricing">Pricing</a>
+        </li>
+        <li>
+          <a class="header__titles" href="#reviews">Reviews</a>
+        </li>
+        <li>
+          <a class="header__titles" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav></aside>
     </section>
 
     <section class="poster" id="poster">
@@ -493,5 +509,6 @@
       </div>
     </div>
     </section>
+    <script src="./script.js"></script>
   </body>
 </html>
