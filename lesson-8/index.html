@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>review</title>
+  </head>
+  <link rel="stylesheet" href="./reset.css" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./review.css" />
+  <body>
+    <section class="review">
+      <div class="review__container">
+        <div class="review__wrapper">
+          <form class="review__form">
+            <div class="form__top">
+              <div class="review__title">
+                <h2>Оставьте свой отзыв на “Ароматическое саше”</h2>
+              </div>
+              <textarea
+                required
+                class="form__textarea"
+                placeholder="Ваш отзыв*"
+                name="textarea"
+                id="textarea__id"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <div class="form__bot">
+              <div class="form__info">
+                <input
+                  required
+                  class="form__inputs"
+                  placeholder="Имя*"
+                  type="text"
+                  name="name"
+                />
+              </div>
+              <div class="form__info">
+                <input
+                  required
+                  class="form__inputs"
+                  placeholder="Телефон*"
+                  type="text"
+                  name="phone"
+                />
+              </div>
+              <div class="form__info">
+                <input class="form__inputs" placeholder="Email" type="text" />
+              </div>
+            </div>
+            <div class="form__footer">
+              <button class="form__button">Отправить</button>
+              <div class="checkbox">
+                <input
+                  class="checkbox__input"
+                  type="checkbox"
+                  id="checkbox__id"
+                  name="send"
+                />
+                <label class="checkbox__label" for="checkbox__id"
+                  >Сохранить моё имя, email и адрес сайта в этом браузере для
+                  последующих моих комментариев.
+                </label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

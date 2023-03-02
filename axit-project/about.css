@@ -5,19 +5,45 @@
   text-align: center;
 }
 
-.title1 {
-  font: Raleway;
-  font-weight: 400;
-  font-size: 40px;
+.about__header {
+  padding: 90px 0 133px 0;
 }
 
-.h2z {
-  font-family: Raleway;
+.about__title {
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 40px;
+}
+
+.about__title h2 {
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   letter-spacing: 0em;
   text-align: center;
+}
+
+.about__description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.about__description {
+  padding-top: 40px;
+}
+
+.items {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .item__image {
@@ -30,42 +56,47 @@
   align-items: center;
 }
 
-.h5z {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-
-.divider {
-  border-bottom: 1px solid #ec7979;
-  display: block;
-  margin: 0 auto;
-  width: 170px;
-}
-
-.items {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-}
-
-.h3z {
+.about__item-name {
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 700;
   line-height: 33px;
   letter-spacing: 0em;
   text-align: center;
+  padding: 70px 0 40px 0;
 }
 
-.pz {
-  font-family: Raleway;
+.about__item-description {
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
+  white-space: pre-line;
+  padding-bottom: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .about__title h2 {
+    font-size: 24px;
+  }
+  .about__description {
+    font-size: 18px;
+  }
+  .about__item-name {
+    font-size: 24px;
+  }
+  .about__item-description {
+    font-size: 18px;
+  }
+
+  .item {
+    padding: 0 11px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .items {
+    flex-direction: column;
+  }
 }

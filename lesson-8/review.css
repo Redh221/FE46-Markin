@@ -1,0 +1,137 @@
+.review__container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1334px;
+  justify-content: center;
+}
+.review__wrapper {
+  background: #fbf7f6;
+}
+
+.review__form {
+  padding: 0 50px;
+}
+.review__title h2 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding: 25px 0 25px;
+}
+
+.form__textarea {
+  height: 188px;
+  width: 1234px;
+  border-radius: 5px;
+  background: #f9f0ee;
+  border: none;
+  padding: 10px 0 0 30px;
+}
+.form__textarea::placeholder {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.form__bot {
+  display: flex;
+}
+
+.form__info {
+  padding-right: 36px;
+  padding-bottom: 5px;
+  padding-top: 35px;
+}
+.form__inputs {
+  height: 41px;
+  width: 387px;
+  left: 183px;
+  top: 2782px;
+  border-radius: 5px;
+  border: none;
+  background: #f9f0ee;
+}
+
+.form__inputs::placeholder {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-left: 30px;
+}
+
+.form__button {
+  height: 63px;
+  width: 250px;
+  border-radius: 100px;
+  background: #ffb0ba;
+  box-shadow: 3px 3px 0px 3px #de8e98;
+  border: none;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #9a3c48;
+}
+
+.form__footer {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0 0 0;
+}
+
+.checkbox__label {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  padding-left: 45px;
+}
+
+.checkbox {
+  position: relative;
+  padding-top: 20px;
+}
+
+.checkbox__input {
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+}
+.checkbox__label:before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: 23px;
+  left: 11px;
+  z-index: 1;
+  position: absolute;
+  background: #f9f0ee;
+}
+
+.checkbox__label:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(./images_password/checkbox2.png) no-repeat;
+  position: absolute;
+  top: 27px;
+  left: 15px;
+  z-index: 2;
+  opacity: 0;
+}
+
+.checkbox__input:checked + .checkbox__label:after {
+  opacity: 1;
+}

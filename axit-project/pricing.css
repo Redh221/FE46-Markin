@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,700&family=Raleway:ital,wght@0,500;0,600;1,400;1,500;1,600&display=swap");
-.pricing__section {
+.pricing {
   background-color: #f5f5f5;
 }
 .pricing__container {
@@ -14,30 +12,22 @@
 }
 
 .pricing__header-title {
-  font-family: Raleway;
   font-size: 36px;
   font-weight: 400;
   line-height: 42px;
   letter-spacing: 0em;
   text-align: center;
-}
-
-.pricing__header-divider {
-  border-bottom: 1px solid #ec7979;
-  display: block;
-  margin: 0 auto;
-  width: 170px;
-  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .pricing__header-description {
   padding-top: 20px;
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
   letter-spacing: 0em;
   text-align: center;
+  padding-top: 40px;
 }
 .pricing__cards {
   display: flex;
@@ -47,6 +37,7 @@
 
 .pricing__card {
   width: 370px;
+  padding-top: 60px;
 }
 
 .pricing__card ul {
@@ -66,7 +57,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 2px solid #F5F5F5;
+  border-bottom: 2px solid #f5f5f5;
   background: linear-gradient(0deg, #333333, #333333),
     linear-gradient(0deg, #f5f5f5, #f5f5f5);
 }
@@ -110,7 +101,6 @@
 }
 
 .card-description p {
-  font-family: Raleway;
   font-size: 18px;
   font-weight: 400;
   line-height: 21px;
@@ -130,8 +120,55 @@
 }
 
 .card-offer p {
-  font-family: Raleway;
   font-size: 18px;
-  font-weight: 400;
-  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .pricing__card {
+    width: 320px;
+    padding-top: 45px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .pricing__card ul {
+    padding: 0 5px;
+  }
+
+  .pricing__header-title {
+    font-size: 28px;
+  }
+  .pricing__header-divider {
+    width: 155px;
+    padding: 30px 0px;
+  }
+  .pricing__header-description {
+    font-size: 16px;
+  }
+  .card-name {
+    height: 54px;
+  }
+  .card-price {
+    height: 89px;
+  }
+  .card-description {
+    height: 45px;
+  }
+  .card-offer {
+    height: 45px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .pricing__cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .pricing__card {
+    width: 295px;
+  }
+  .card-offer p {
+    font-size: 16px;
+  }
+  .pricing__header-title {
+    font-size: 24px;
+  }
 }
