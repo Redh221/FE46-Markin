@@ -10,7 +10,8 @@
   align-items: center;
 
   flex-direction: column;
-  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)), url("./imgs/city.png");
+  background: linear-gradient(#00000080, rgba(0, 0, 0, 0.8)),
+    url("./imgs/city.png");
 }
 .banner__title h2 {
   font-size: 36px;
@@ -19,13 +20,6 @@
   text-align: center;
   padding: 60px 0 50px 0;
 }
-.banner__divider {
-  border-bottom: 1px solid #ffffff;
-  display: flex;
-  width: 170px;
-  margin: 0 auto;
-}
-
 .banner__description h4 {
   font-size: 18px;
   font-weight: 400;
@@ -79,10 +73,4 @@
     height: 50px;
     width: 287px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .banner__button-download {
-    height: 50px;
-    width: 227px;
 }

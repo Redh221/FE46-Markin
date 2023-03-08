@@ -30,21 +30,32 @@
   padding: 40px 0 40px;
   color: #86878b;
 }
-
 .reviews__card {
   display: flex;
   flex-direction: column;
+  position: relative;
+  width: 370px;
 }
 
 .card__message {
   height: 180px;
-  width: 370px;
-  left: 170px;
-  top: 3820px;
   border-radius: 10px;
   background: #e2e2e2;
+  margin: 0 3px;
+  position: relative;
+  /* width: 100%; */
 }
-
+.card__message::after {
+  content: "";
+  border: 20px solid transparent;
+  border-top: 20px solid #e2e2e2;
+  position: absolute;
+  top: 100%;
+  left: 16%;
+}
+.card__tooltip {
+  padding-left: 60px;
+}
 .card__message-text h4 {
   font-size: 18px;
   font-weight: 400;
@@ -55,17 +66,18 @@
   padding: 38px 0px 37px 0px;
   white-space: pre;
 }
-
 .card__user {
   display: flex;
   padding-top: 66px;
+  padding-bottom: 40px;
+  width: 100%;
 }
-
 .card__right-name h2 {
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 700;
   text-align: left;
+  min-height: 54px;
 }
 
 .card__right-profession h3 {
@@ -73,7 +85,6 @@
   font-weight: 400;
   text-align: left;
   padding-top: 15px;
-  padding-bottom: 40px;
 }
 
 .card__left {
@@ -82,8 +93,45 @@
 
 .reviews__card-bunde {
   justify-content: space-between;
-  align-items: center;
   display: flex;
   margin: 0 auto;
   max-width: 1170px;
+}
+
+@media screen and (max-width: 1150px) {
+  .reviews__title h2 {
+    font-size: 24px;
+  }
+  .reviews__description h4 {
+    font-size: 16px;
+  }
+  .reviews__card {
+    width: 300px;
+  }
+  .card__message-text h4 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .card__tooltip {
+    padding-left: 60px;
+    z-index: 5;
+    background-color: #832c2c;
+  }
+
+  .card__right-name h2 {
+    font-size: 18px;
+  }
+  .card__right-profession h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .reviews__card-bunde {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
