@@ -100,9 +100,9 @@
   .header__burger {
     display: flex;
   }
-  .header__right {
+  /* .header__right {
     display: none;
-  }
+  } */
   .header__logo {
     width: 70%;
     margin: 0%;
@@ -112,6 +112,13 @@
   }
 }
 
+.header__divider {
+  border-bottom: 1px solid #ec7979;
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+}
+/* 
 @media (max-width: 815px) {
   .header__menu {
     width: 500px;
@@ -150,4 +157,4 @@
     display: flex;
     flex-direction: column;
   }
-}
+} */
